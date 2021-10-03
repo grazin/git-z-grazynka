@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../style.css" rel="stylesheet" >
+</head>
+
+<body>
+    <div class="content">
+        <p class="plot">
+                Pracujesz nad projektem w środowisku, które tworzy foldery i pliki, które nie powinny być widoczne dla gita. 
+                <div class="hash-tags">
+                    #ignore
+                    </div>
+        </p>
+
+        <p>Użyj repozytorium z poprzedniego ćwiczenia.</p>
+
+
+        <p>Utwórz pliki: <span class="command">today.log</span>, <span class="command">yesterday.log</span> 
+            oraz foldery <span class="command">bin</span> i <span class="command">debug</span>. Utwórz w tych folderach dowolne pliki.         <p>
+        
+
+                <div class="piece">
+                    <div class="git">
+                        $ git status
+                    </div>
+                    <p>Sprawdź czy git wylistuje te pliki i foldery.</p>
+                </div>
+                <div class="clear"></div>
+
+        <div class="full-piece">
+          <div> Utwórz plik .gitignore i wprowadź odpowiednie wpisy, żeby git ignorował foldery:
+                        <span class="command">debug</span> i <span class="command">bin</span> <br />
+            oraz pliki z rozszerzeniami:
+            <span class="command">.log</span>
+        </div> 
+        </div>
+
+
+            <div class="piece">
+                    <div class="git">
+                        $ git status
+                    </div>
+                    <p>Następnie sprawdź czy są poprawnie ignorowane. Wystarczy polecenie <span class="command">status</span>. Jeśli git nie wylistuje niechcianych plików, jest dobrze.</p>
+                </div>
+                <div class="clear"></div>
+
+
+                <div class="full-piece">
+                    Zacommituj teraz te zmiany, czyli dodany nowy plik .gitignore. Już wiesz jak :) Nazwij commit <span class="command">.gitignore added</span>.
+                </div>
+                <div class="clear"></div>
+
+                <div class="full-piece">
+                    Zrób zmiany teraz w ignorowanych plikach i/lub folderach, zobacz czy git status je pokaże.        
+                </div>
+                <div class="clear"></div>
+
+                <div class="piece">
+                    <div class="git">
+                            $ git status <br />
+                            $ git log --graph --oneline
+                    </div> 
+                    <p>Sprawdź status i log. Podejrzyj jak to wygląda w GUI</p>
+                    
+        
+                </div>
+                <div class="clear"></div>
+        
+                <div class="full-piece" >
+        
+                        <img src="cwiczenie-4-fork.png" />
+                    
+                </div>
+
+
+    </div>
+</body>
+
+</html>

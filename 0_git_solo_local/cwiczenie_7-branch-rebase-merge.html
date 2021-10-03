@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+                <link href="../style.css" rel="stylesheet" >
+            </head>
+
+<body>
+    <div class="content">
+        <p class="plot">
+            Rozpoczynasz pracę nad kolejną nową funkcjonalnością. Zgodnie ze sztuką robisz to na nowym branchu.
+            <div class="hash-tags">
+                #branch #rebase #merge
+                </div>
+        </p>
+
+        <div class="piece">
+            <div class="git">
+                $ git checkout -b task-3
+            </div>
+            <p>Zacznij od utworzenia nowego brancha o nazwie <span class="command">task-3</span>, użyj polecenia, które od razu przeniesie cię na nowy branch.</p>
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                $ git branch
+            </div>
+            <p>Sprawdź jakie masz teraz u siebie branche.</p>
+        </div>
+        <div class="clear"></div>
+
+        <div class="full-piece">
+            Zrób zmiany w istniejących już plikach, zacommituj wszystkie zmiany, nazwij je <span class="command">commit-task-3</span>.
+        </div>
+        <div class="clear"></div>
+
+
+        <div class="piece">
+            <div class="git">
+                $ git checkout master<br />
+            </div>
+            <p>Wróć na branch <span class="command">master</span>. Następnie zrób utwórz nowy plik <span class="command">plik6.txt</span> i zacommituj zmiany,
+                nazwij je <span class="command">commit-5</span>.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                $ git checkout task-3<br />
+            </div>
+            <p>Wróć na branch <span class="command">task-3</span></p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git rebase master
+            </div>
+            <p>Zrób rebase z masterem.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git checkout master<br />
+                    $ git merge task-3
+            </div>
+            <p>Przejdź na branch <span class="command">master</span> i dopiero teraz zrób merge zmian z <span class="command">task-3</span.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git status <br />
+                    $ git log --graph --oneline
+            </div> 
+            <p>Jaka jest różnica między merdżem <span class="command">task-3</span> a <span class="command">task-2</span> z poprzedniego ćwiczenia? Sprawdź status i log. Podejrzyj jak to wygląda w GUI</p>
+            
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="full-piece" >
+
+                <img src="cwiczenie-7-fork.png" />
+            
+        </div>
+
+        
+
+    </div>
+</body>
+
+</html>

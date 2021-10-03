@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+                <link href="../style.css" rel="stylesheet" >
+            </head>
+
+<body>
+    <div class="content">
+        <p class="plot">
+            Rozpoczynasz pracę nad kolejną nową funkcjonalnością. Zgodnie ze sztuką robisz to na nowym branchu.
+            <div class="hash-tags">
+                #branch #merge #no-fast-forward
+                </div>
+        </p>
+
+        <div class="piece">
+            <div class="git">
+                $ git checkout -b task-2
+            </div>
+            <p>Zacznij od utworzenia nowego brancha o nazwie <span class="command">task-2</span>, użyj polecenia, które od razu przeniesie cię na nowy branch.</p>
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                $ git branch
+            </div>
+            <p>Sprawdź jakie masz teraz u siebie branche.</p>
+        </div>
+        <div class="clear"></div>
+
+        <div class="full-piece">
+            Zrób zmiany w istniejących już plikach, zacommituj wszystkie zmiany, nazwij je <span class="command">commit-task-2</span>.
+        </div>
+        <div class="clear"></div>
+
+
+        <div class="piece">
+            <div class="git">
+                $ git checkout master<br />
+            </div>
+            <p>Wróć na branch <span class="command">master</span>. Następnie zrób utwórz nowy plik <span class="command">plik5.txt</span> i zacommituj zmiany
+                , nazwij je <span class="command">commit-4</span>.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                $ git merge task-2<br />
+            </div>
+            <p>Dopiero teraz zmerdżuj zmiany z brancha <span class="command">task-2</span>.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git status <br />
+                    $ git log --graph --oneline
+            </div> 
+            <p>Jaka jest różnica między merdżem <span class="command">task-2</span> a <span class="command">task-1</span> z poprzedniego ćwiczenia? Sprawdź status i log. Podejrzyj jak to wygląda w GUI</p>
+            
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="full-piece" >
+
+                <img src="cwiczenie-6-fork.png" />
+            
+        </div>
+
+    </div>
+</body>
+
+</html>

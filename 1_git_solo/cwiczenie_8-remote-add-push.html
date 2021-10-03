@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+</head>
+
+<body>
+    <div class="content">
+        <p class="plot">
+            Rozpocząłeś/rozpoczęłaś już pracę nad dużym samodzielnym projektem. Chcesz, żeby twoja praca była
+            bezpieczna i chcesz
+            eksplorować różne podejścia do tematu.
+        </p>
+        <p>Użyj repozytorium z poprzedniego ćwiczenia.</p>
+
+        <div class="piece">
+            <div class="img">
+                <img src="github.join.png" />
+            </div>
+            <p>Jeśli jeszcze nie masz, stwórz konto na GitHubie: <a href="https://github.com/join" target="_blank">github.com/join</a>
+            </p>
+        </div>
+
+        <div class="piece">
+            <div class="img">
+                <img src="create-new-repo.png" />
+            </div>
+            <p>Póki co, twoje repozytorium istnieje tylko lokalnie. 
+                Stwórz nowe publiczne repozytorium: <a href="https://github.com/new" target="_blank">github.com/new</a>, żeby spiąć je ze swoim lokalnym.
+            </p>
+        </div>
+
+        <div class="piece">
+            <div class="img">
+                <img src="copy.https.repo1.png" />
+            </div>
+            <p>Przejdź na nowo utworzone repozytorium i skopiuj url HTTPS.</p>
+        </div>
+
+        <div class="piece">
+                <div class="howto">
+                        <div class="git">
+                <pre><code>$ git remote add origin https://github.com/grazin/repo1.git</code></pre>
+
+            </div>
+        </div>
+            <p>Wróć do git basha i zepnij swoje repozytorium z originem z GitHuba.</p>
+
+        </div>
+
+        <div class="piece">
+                <div class="howto">
+                        <div class="git">
+                <pre><code>$ git push -u origin master</code></pre>
+            </div>
+            <div class="response">odpowiedź:</div>
+            <div class="git with-response">
+                <pre><code>Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 324 bytes | 14.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/grazin/repo1/pull/new/master
+remote:
+To github.com:grazin/repo1.git
+    * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.</code></pre>
+</div>
+<br />
+<div class="git">
+    <pre><code>$ git status</code></pre>
+</div>
+<div class="response">odpowiedź:</div>
+<div class="git with-response">
+    <pre><code>On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean</code></pre>
+            </div>
+        </div>
+            <p>Teraz pusznij zmiany do origina (czyli do GitHuba).
+                Ponieważ to pierwszy komit na tym branczu, użyj przełącznika <span class="command">-u</span>. 
+                GitHub o ile już tego nie zrobiłeś/zrobiłaś poprosi cię o autentykację. 
+                Następnie znów odczytaj status.
+            </p>
+        </div>
+
+
+        <div class="piece">
+            <div class="howto">
+                <div class="git">
+                    <pre><code>$ git log --graph --oneline</code></pre>
+                </div>
+            </div>
+            <p>Sprawdź status i log. Podejrzyj jak to wygląda w GUI, co się zmieniło?</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="full-piece" >
+
+                <img src="cwiczenie-8-fork.png" />
+            
+        </div>
+
+            
+
+    </div>
+</body>
+
+</html>

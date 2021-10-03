@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+                <link href="../style.css" rel="stylesheet" >
+            </head>
+
+<body>
+    <div class="content">
+        <p class="plot">
+            Rozpoczynasz pracę nad swoim bardzo ważnym projektem! 
+            <div class="hash-tags">
+                #init #status #add #commit #log #vim
+                </div>
+        </p>
+
+        <div class="piece">
+            <div class="git">
+                $ git init
+            </div>
+            <p>Stwórz folder o nazwie <span class="command">repo1</span> i otwórz git bash w tym nowym folderze. 
+                Następnie utwórz nowe repozytorium lokalne za pomocą polecenia <span class="command">init</span>.</p>
+        </div>
+        <div class="clear"></div>
+
+
+        <div class="piece">
+            <div class="git">
+                $ git status
+            </div><p>Żeby sprawdzić stan, użyj polecenia <span class="command">status</span>. Przeczytaj ze zrozumieniem output dla pustego repozytorium.</p>
+
+
+        </div>
+        <div class="clear"></div>
+
+
+
+        <div class="piece">
+            <div class="git">
+                $ git add plik1.txt
+            </div>
+            <p>Teraz utwórz nowy pusty <span class="command">plik1.txt</span> w twoim repozytorium i ponownie sprawdź status. Przeczytaj ze zrozumieniem.
+            Następnie dodaj plik do indeksu. Użyj komendy <span class="command">add</span> i sprawdź status ponownie.</p>
+
+        </div>
+        <div class="clear"></div>
+
+
+        <div class="piece">
+            <div class="git">
+                    $ git commit -m "commit-1"
+            </div>
+            <p>Zacommituj teraz nowo utworzony plik. Przeczytaj output z commita.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git log
+            </div>
+            <p>Teraz możesz też już sprawdzić log twojego repozytorium.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git add .
+            </div>
+            <p>Utwórz jeszcze jeden <span class="command">plik2.txt</span>, a w pierwszym <span class="command">plik1.txt</span> zmień treść. 
+                Sprawdź ponownie status. Dodaj zmiany do indeksu.
+            Tym razem użyj komendy <span class="command">add .</span> czyli "dodaj wszystko". Sprawdź status. </p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git commit
+            </div>
+            <p>Następnie zacommituj te zmiany, ale nie wpisuj parametru <span class="command">-m</span>.</p>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+                <div class="git">
+                        <br />
+                        # Please enter the commit message for your changes. Lines starting<br />
+                        # with '#' will be ignored, and an empty message aborts the commit.<br />
+                        #<br />
+                        # On branch master<br />
+                        # Changes to be commited:<br />
+                        # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modified:&nbsp;&nbsp;file1.txt<br />
+                        #<br />
+                        ~<br />
+                        ~<br />
+                </div>
+                <p>
+                    Nie mam pojęcia jaki edytor jest domyślny w tym wypadku na Macu. Ale na windowsie domyślnie będzie Vim.
+                    Git bash i tak poprosi cię o wpisanie i zatwierdzenie tytułu commita. Wejdź w tryb edycji <span class="command">i</span> lub <span class="command">Insert</span>. 
+            Wprowadź tytul <span class="command">commit-2</span> i wyjdź <span class="command">Escape</span> a następnie zakończ <span class="command">Shift+zz</span> lub <span class="command">:wq</span>. 
+            Sprawdź status i log.</p>
+        </div>
+        <div class="clear"></div>
+
+        <div class="piece">
+            <div class="git">
+                    $ git status <br />
+                    $ git log --graph --oneline
+            </div> 
+            <p>Sprawdź status i log. Podejrzyj jak to wygląda w GUI</p>
+            
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="full-piece" >
+
+                <img src="cwiczenie-1-fork.png" />
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
